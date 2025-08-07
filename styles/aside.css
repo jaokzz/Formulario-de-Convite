@@ -1,0 +1,42 @@
+aside {
+  position: fixed;
+  /* left: 0; */
+  top: 0;
+  /* width: 400px; */
+  /* height: 100vh; */
+}
+
+.invite {
+  display: flex;
+  align-items: flex-start;
+
+  background-image: url(/assets/Background.png);
+  background-size: cover;
+  border-radius: 1.5rem;
+  height: 728px;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    width: 45.85px;
+    height: 48px;
+  }
+}
+
+h1 {
+  font: var(--logo);
+  color: pink;
+  margin: 16px 0px 16px 0px;
+
+  & + p {
+    font: var(--body-md-regular);
+    margin-top: 0px;
+    color: var(--text-heading);
+  }
+}
