@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  h2 {
+    font: var(--h2);
+    color: var(--text-heading);
+  }
+  h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font: var(--h3);
+    color: var(--text-heading);
+  }
+
+  .inputs-container {
+    width: 35rem;
+    color: var(--text-body);
+    font: var(--body-md-regular);
+
+    display: grid;
+  }
+  
+  label, legend {
+    margin: 16px 0px 12px 0px;
+  }
+
+  input,
+  textarea {
+    width: 35rem;
+    max-width: 100%;
+    padding: 1rem;
+
+    border-radius: 0.75rem;
+    border: 1px solid var(--input-stroke);
+
+    background-color: var(--input-base);
+    color: var(--input-placeholder);
+    font: var(--body-md-regular);
+    }
+
+  fieldset {
+    border: none;
+  }
+}

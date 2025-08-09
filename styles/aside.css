@@ -1,42 +1,19 @@
 aside {
-  position: fixed;
-  /* left: 0; */
-  top: 0;
-  /* width: 400px; */
-  /* height: 100vh; */
-}
+    background-image: url(../assets/Background.png);
+    background-size: cover;
+    width: 400px;
+    height: 728px;
+    padding: 32px;
 
-.invite {
-  display: flex;
-  align-items: flex-start;
+    border-radius: 2rem;
+    margin: 3rem;
 
-  background-image: url(/assets/Background.png);
-  background-size: cover;
-  border-radius: 1.5rem;
-  height: 728px;
-  width: 100%;
-  max-width: 400px;
-  padding: 2rem;
-}
-
-.container-title {
-  display: flex;
-  flex-direction: column;
-
-  .logo {
-    width: 45.85px;
-    height: 48px;
-  }
-}
-
-h1 {
-  font: var(--logo);
-  color: pink;
-  margin: 16px 0px 16px 0px;
-
-  & + p {
-    font: var(--body-md-regular);
-    margin-top: 0px;
-    color: var(--text-heading);
-  }
+    h1 {
+        font: var(--logo);
+        color: var(--pink);
+    }
+    p {
+        font: var(--body-sm-regular);
+        color: var(--text-heading);
+    }
 }

@@ -48,12 +48,16 @@
 
   --body-xm-regular: normal normal 400 12px / normal var(--font-family-regular);
   --body-xm-semibold: normal normal 600 12px / normal var(--font-family-regular);
+
+  --aside-width: 559px;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+body {
   background-color: var(--shape-background);
 }
