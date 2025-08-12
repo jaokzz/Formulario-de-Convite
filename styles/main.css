@@ -17,16 +17,28 @@ main {
     color: var(--text-heading);
   }
 
+  .inputs input {
+    width: 100%;
+  }
+
   .inputs-container {
-    width: 35rem;
     color: var(--text-body);
     font: var(--body-md-regular);
-
-    display: grid;
   }
-  
-  label, legend {
+
+  legend {
     margin: 16px 0px 12px 0px;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    padding-left: 1.02rem;
+    padding-right: 1.02rem;
+
+    cursor: pointer;
   }
 
   input,
@@ -41,9 +53,67 @@ main {
     background-color: var(--input-base);
     color: var(--input-placeholder);
     font: var(--body-md-regular);
-    }
+  }
 
   fieldset {
     border: none;
   }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--input-base);
+
+
+  position: relative;
+  gap: 1rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  border: 1px solid var(--input-stroke);
+}
+
+.checkbox input[type="radio"] {
+  display: none;
+}
+
+.checkbox label {
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.checkbox input[type="radio"]:checked + label {
+  background-color: var(--shape-button);
+  color: var(--text-heading);
+  border-radius: 0.65rem;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+
+}
+
+.checkbox label:hover {
+  background-color: #454545;
+  border-radius: .65rem;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+
+.radio-image-on {
+  background-image: url(../assets/icons/video.svg);
+  width: 1rem;
+  aspect-ratio: 1/1;
+  background-size: contain;
+
+  
+}
+.radio-image-pres {
+  background-image: url(../assets/icons/building.svg);
+  width: 1rem;
+  aspect-ratio: 1/1;
+  background-size: contain;
 }
