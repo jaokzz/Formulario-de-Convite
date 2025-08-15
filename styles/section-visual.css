@@ -1,0 +1,121 @@
+.visual {
+  span {
+    display: flex;
+    gap: 0.5rem;
+
+    font: var(--h3);
+    color: var(--text-heading);
+
+    margin-bottom: 1.62rem;
+    margin-top: 3rem;
+  }
+
+  p {
+    color: #ffffff;
+    font: var(--body-sm-regular);
+  }
+
+  .color-container {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+
+    #brand-light {
+      background-color: var(--brand-light);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #navy {
+      background-color: var(--navy);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+    #purple {
+      background-color: var(--purple);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #fuschia {
+      background-color: var(--fuschia);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #pink {
+      background-color: var(--pink);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #danger {
+      background-color: var(--danger);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #orange {
+      background-color: var(--orange);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #yellow {
+      background-color: var(--yellow);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #lime {
+      background-color: var(--lime);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #green {
+      background-color: var(--green);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+
+    #cyan {
+      background-color: var(--cyan);
+      width: 2.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 1.5rem;
+      border: 6px solid var(--shape-button);
+      cursor: pointer;
+    }
+  }
+}
