@@ -33,7 +33,7 @@
 }
 
 .color-container div:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 #brand-light {
@@ -97,7 +97,7 @@ p:has(~ div.input-file-container) {
 }
 
 .tema div:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   border-color: var(--brand-light);
 }
 
