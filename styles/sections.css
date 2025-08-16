@@ -1,0 +1,107 @@
+.visual span {
+  display: flex;
+  gap: 0.5rem;
+  font: var(--h3);
+  color: var(--text-heading);
+  margin-bottom: 1.62rem;
+  margin-top: 3rem;
+}
+
+.visual p {
+  color: var(--text-heading);
+  font: var(--body-sm-regular);
+}
+
+.visual #tema-paragrafo {
+  margin: 1rem 0 1rem 0;
+}
+
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.color-container div {
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 6px solid var(--shape-button);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.color-container div:hover {
+  transform: scale(1.1);
+}
+
+#brand-light {
+  background-color: var(--brand-light);
+}
+#navy {
+  background-color: var(--navy);
+}
+#purple {
+  background-color: var(--purple);
+}
+#fuschia {
+  background-color: var(--fuschia);
+}
+#pink {
+  background-color: var(--pink);
+}
+#danger {
+  background-color: var(--danger);
+}
+#orange {
+  background-color: var(--orange);
+}
+#yellow {
+  background-color: var(--yellow);
+}
+#lime {
+  background-color: var(--lime);
+}
+#green {
+  background-color: var(--green);
+}
+#cyan {
+  background-color: var(--cyan);
+}
+
+.tema {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.tema div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--shape-button);
+  border-radius: 0.5rem;
+  border: 1px solid var(--input-stroke);
+  padding: 0.25rem 0.25rem 0 0.25rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.tema div p {
+  margin: 5px;
+}
+
+p:has(~ div.input-file-container) {
+  margin: 1rem 0 1rem 0;
+}
+
+.tema div:hover {
+  transform: scale(1.05);
+  border-color: var(--brand-light);
+}
+
+.tema img {
+  width: 100%;
+  border-radius: 0.25rem;
+}

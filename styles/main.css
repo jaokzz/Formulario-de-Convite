@@ -1,0 +1,62 @@
+main {
+  height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--shape-button) transparent;
+  padding: 1rem;
+}
+
+main h2 {
+  font: var(--h2);
+  color: var(--text-heading);
+}
+
+main h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font: var(--h3);
+  color: var(--text-heading);
+
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+fieldset {
+  border: none;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--input-stroke);
+}
+
+.inputs-container {
+  color: var(--text-body);
+  font: var(--body-md-regular);
+}
+
+legend {
+  margin: 16px 0px 12px 0px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--input-base);
+  color: var(--input-placeholder);
+  font: var(--body-md-regular);
+}

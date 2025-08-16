@@ -1,0 +1,47 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  background-color: var(--input-base);
+  position: relative;
+  gap: 1rem;
+  border-radius: 0.75rem;
+  padding: 0.6rem;
+  border: 1px solid var(--input-stroke);
+}
+
+.checkbox input[type="radio"] {
+  display: none;
+}
+
+.checkbox label {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.65rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.checkbox input[type="radio"]:checked + label {
+  background-color: var(--shape-button);
+  color: var(--text-heading);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.checkbox label:hover {
+  background-color: var(--shape-hover);
+}
+
+.radio-image-on,
+.radio-image-pres {
+  width: 1rem;
+  aspect-ratio: 1/1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.radio-image-on {
+  background-image: url(../assets/icons/video.svg);
+}
+
+.radio-image-pres {
+  background-image: url(../assets/icons/building.svg);
+}

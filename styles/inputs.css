@@ -1,0 +1,77 @@
+.input-file-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-file {
+  display: none;
+}
+
+.input-file-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #4a4a4a;
+  color: var(--text-heading);
+  font: var(--body-sm-regular);
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.input-file-trigger:hover {
+  background-color: var(--shape-hover);
+}
+
+.file-name {
+  font: var(--body-sm-regular);
+  color: var(--input-placeholder);
+}
+
+.termos-e-condicoes {
+  margin-top: 2rem;
+
+& a {
+    color: var(--brand-dark);
+}
+
+}
+
+.child-terms {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.child-terms label {
+  font: var(--body-sm-regular);
+  color: var(--text-body);
+  justify-content: flex-start;
+}
+
+.child-terms input[type="checkbox"] {
+  width: auto;
+}
+
+
+.button-submit {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    display: flex;
+    justify-items: flex-end;
+    gap: 0.75rem;
+
+    font: var(--body-md-regular);
+    color: var(--text-heading);
+
+    background-color: var(--brand-dark);
+    padding: 13px;
+    border-radius: 0.7rem;
+
+    border: none;
+  }
+}

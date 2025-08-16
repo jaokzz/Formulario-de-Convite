@@ -1,0 +1,57 @@
+:root {
+  /* Cores */
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+  --purple: #b259ff;
+  --fuschia: #ff59f9;
+  --pink: #ff598b;
+  --orange: #ff8b59;
+  --yellow: #ffcd59;
+  --lime: #e1ff59;
+  --green: #59ff91;
+  --cyan: #59fff9;
+  --navy: #6a59ff;
+  --danger: #ff5959;
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+
+  /* Tipografia */
+  --font-family-logo: "Leckerli One", cursive;
+  --logo: normal normal 400 40px / normal var(--font-family-logo);
+  --font-family-heading: "Baloo 2", sans-serif;
+  --h2: normal normal 800 28px / normal var(--font-family-heading);
+  --h3: normal normal 800 18px / normal var(--font-family-heading);
+  --font-family-body: "Open Sans", sans-serif;
+  --body-md-regular: normal normal 400 16px / normal var(--font-family-body);
+  --body-md-semibold: normal normal 600 16px / normal var(--font-family-body);
+  --body-sm-regular: normal normal 400 14px / normal var(--font-family-body);
+  --body-sm-semibold: normal normal 600 14px / normal var(--font-family-body);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--shape-background);
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 400px 35%;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2rem;
+  padding: 2rem;
+  overflow: hidden;
+}
