@@ -1,0 +1,49 @@
+.input-file-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-file {
+  display: none; 
+}
+
+.input-file-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #4a4a4a;
+  color: var(--text-heading);
+  font: var(--body-sm-regular);
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.input-file-trigger:hover {
+  background-color: #5a5a5a;
+}
+
+.input-file-trigger svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.file-name {
+  font-size: 14px;
+  color: var(--input-placeholder);
+  margin-left: 10px;
+  line-height: 22px; 
+  font: var(--body-sm-regular);
+}
+
+.file-name::before {
+  content: "Nenhum arquivo selecionado";
+}
+
+.input-file:valid + .input-file-trigger + .file-name::before {
+  content: "Arquivo selecionado!";
+  color: #e0e0e0;
+}

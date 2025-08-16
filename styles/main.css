@@ -5,6 +5,8 @@ body {
 }
 
 main {
+  padding: 10px;
+
   scrollbar-width: thin;
   scrollbar-color: var(--shape-button) transparent;
 
